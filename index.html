@@ -4713,6 +4713,29 @@
           ["认情绪 → 情绪识别和表达","Feelings → Recognising and expressing emotions"],["日常流程卡 → 自理和预知能力","Routine Cards → Self-care and knowing what's next"],["识字游戏 → 语言和阅读基础","Word Games → Language and early reading"],["数数游戏 → 数量概念和专注","Counting Games → Number sense and focus"],["社交故事 → 社交理解","Social Stories → Social understanding"],["冷静角落 → 自我调节","Calm Corner → Self-regulation"],["沟通图卡 → 辅助沟通（AAC）","Picture Cards → Aided communication (AAC)"],["情绪日记 → 情绪觉察和亲子沟通","Mood Diary → Emotional awareness and communication"],["专注力训练 → 视觉专注和工作记忆","Focus Training → Visual focus and working memory"],["生活自理教学 → 独立自理能力","Self-care Skills → Independent living skills"],["奖励贴纸簿 → 正向行为动机","Sticker Book → Positive motivation"],["语言仿说 → 语言模仿和发音","Echo Speaking → Imitation and pronunciation"],["安全教学 → 安全意识和求助方法","Safety Lessons → Safety awareness and asking for help"],["感觉统合游戏 → 感官处理和手眼协调","Sensory Play → Sensory processing and hand-eye coordination"],["时间概念 → 时间和顺序概念","Time Concepts → Time and sequencing"],["睡眠故事 → 睡前常规和情绪安抚","Sleep Stories → Bedtime routine and soothing"],["家长自订内容 → 度身订做的学习材料","Parent Custom Content → Material made to fit your child"],["进度报告导出 → 和专业人员沟通","Progress Report → Communicating with professionals"]
         ];
         document.querySelectorAll(".skill-row h3").forEach(function(h, i){ if(SKILL_H[i]) h.textContent = isEn() ? SKILL_H[i][1] : SKILL_H[i][0]; });
+        if(isEn()){
+          var SKILL_B = [
+            "Recognising your own and other people's feelings is the first step to putting them into words — and that means fewer meltdowns caused by not being able to say how you feel.",
+            "Visual schedules are a widely used support for autistic children: knowing what comes next naturally lowers anxiety, and children gradually learn to complete routines on their own.",
+            "Pictures, written words and read-aloud together help children with dyslexia or speech delay build word concepts.",
+            "Counting one by one, slowly, practises one-to-one correspondence, and also builds the patience to sit still and finish a task.",
+            "Social Stories are a well-established teaching method: rehearsing situations before going out or going to class helps children feel much less lost when the moment comes.",
+            "Knowing to breathe deeply, drink some water, or step away for a quiet moment when feelings run high is a lifelong skill that has to be practised slowly — it can't be learned through scolding.",
+            "For children who can't speak yet or speak very little, tapping picture cards to voice their needs reduces frustration and meltdowns caused by not being able to communicate; the sentence-builder helps them move from single words to full sentences.",
+            "Recording feelings and what happened each day helps parents gradually spot patterns — which situations most often upset their child — and is a very useful reference at follow-up appointments and therapy sessions.",
+            "“Spot the difference” trains visual search and focus, while “Memory matching” trains the ability to hold information in mind — both are common training goals for children with ADHD.",
+            "Breaking skills like hand washing, tooth brushing and dressing into small steps (task analysis) is a method often used in occupational therapy: every successful step builds a little more confidence.",
+            "Exchanging stars for stickers and rewards is a token economy approach: goals need to be specific, and once reached they must be honoured, so that children trust the system.",
+            "Listening and immediately repeating, progressing step by step from single words to full sentences, is the first step in speech therapy for building expressive foundations; the “Listen slowly” button slows the speech rate to make it easier to follow.",
+            "Road crossing, strangers, getting lost and home safety are taught through story rehearsals and quizzes. SEN children often find it hard to judge situations on the spot, so learning the rules and help-seeking steps in advance means they know how to react when something happens.",
+            "Identifying things by sound trains auditory discrimination, and comparing sizes trains visual discrimination. The sensory activities below (squeezing, touching, listening) can be done together at home, helping children who are sensory-sensitive or under-responsive to regulate gradually.",
+            "Time is abstract, and SEN children find it especially hard to grasp. Here, a real clock face, a daily timeline and a “wait a moment” timer turn “what time is it?” and “how long do I have to wait?” into things you can see, reducing anxiety from not knowing how long the wait will be.",
+            "A fixed bedtime routine — listening to a slow story and soft music — is a signal that tells the body “it's time to sleep”. The stories are slow-paced with no exciting plots, helping children gradually settle down from excitement.",
+            "Learning with the people and things around your child — family members' names, their teacher, their real daily routines — links content tightly to everyday life, making it much easier for them to use what they've learned. This is the key to generalisation.",
+            "Star progress and the mood diary are compiled into one report that you can download or copy for teachers, speech therapists and occupational therapists. At follow-up appointments there's no need to rely on memory item by item — communication becomes much more accurate."
+          ];
+          document.querySelectorAll(".skill-row p").forEach(function(p, i){ if(SKILL_B[i]) p.textContent = SKILL_B[i]; });
+        }
         setFull("#pTipTitle", "陪玩小贴士", "Tips for playing together");
         var tipSec = document.querySelectorAll("#view-parent .p-sec")[2];
         if(tipSec){
