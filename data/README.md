@@ -51,6 +51,9 @@ App 會讀呢啲檔案嚟顯示內容；加新教材包，只需要喺 `packs/` 
 | `packs/body.json` | 身體篇 — 頭、手、腳、眼、認識身體 |
 | `packs/colors.json` | 顏色篇 — 紅、黃、藍、綠、顏色遊戲 |
 | `packs/family.json` | 家庭篇 — 爸爸、媽媽、哥哥姐姐、我的一家 |
+| `packs/jobs.json` | 職業篇 — 醫生、老師、警察、長大想做咩 |
+| `packs/weather.json` | 天氣篇 — 太陽、雨、風、天氣點著衫 |
+| `packs/festivals.json` | 節日篇 — 新年、聖誕、中秋、過節要做咩 |
 
 ## 家長分享內容
 
