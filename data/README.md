@@ -47,6 +47,10 @@ App 會讀呢啲檔案嚟顯示內容；加新教材包，只需要喺 `packs/` 
 | `packs/transport.json` | 交通篇 — 巴士、的士、地鐵、搭車守則 |
 | `packs/food.json` | 食物篇 — 蘋果、飯、麵、食飯禮儀 |
 | `packs/school.json` | 學校篇 — 書包、老師、上堂守則 |
+| `packs/animals.json` | 動物篇 — 狗、貓、獅子、去動物園守則 |
+| `packs/body.json` | 身體篇 — 頭、手、腳、眼、認識身體 |
+| `packs/colors.json` | 顏色篇 — 紅、黃、藍、綠、顏色遊戲 |
+| `packs/family.json` | 家庭篇 — 爸爸、媽媽、哥哥姐姐、我的一家 |
 
 ## 家長分享內容
 
