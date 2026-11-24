@@ -54,6 +54,9 @@ App 會讀呢啲檔案嚟顯示內容；加新教材包，只需要喺 `packs/` 
 | `packs/jobs.json` | 職業篇 — 醫生、老師、警察、長大想做咩 |
 | `packs/weather.json` | 天氣篇 — 太陽、雨、風、天氣點著衫 |
 | `packs/festivals.json` | 節日篇 — 新年、聖誕、中秋、過節要做咩 |
+| `packs/numbers.json` | 數字篇 — 一、二、三、數數遊戲 |
+| `packs/fruits-veg.json` | 水果蔬菜篇 — 蘋果、香蕉、蘿蔔、食得健康 |
+| `packs/vehicles.json` | 交通工具篇 — 巴士、地鐵、電車、搭車守則 |
 
 ## 家長分享內容
 
